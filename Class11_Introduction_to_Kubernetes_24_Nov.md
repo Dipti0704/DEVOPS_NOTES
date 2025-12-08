@@ -298,6 +298,8 @@ If a node goes down:
 3. API server → authentication → authorization → validation.
 4. API server → writes object to etcd.
 5. Scheduler identifies node for pod.
+scheduler gets triggered by etcd event driven architecture.
+nobody has to invoke scheduler since its based on event driven architedcuter.
 6. API server updates pod metadata.
 7. Kubelet on target node receives instructions.
 8. Kubelet → CRI → container runtime → creates container.
