@@ -318,7 +318,7 @@ ReplicaSets:
   * rollback versions
 
 Hence:
-👉 **Deployments are the recommended workload controller**
+ **Deployments are the recommended workload controller**
 
 ---
 
